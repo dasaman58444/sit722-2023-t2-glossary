@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>English <%= title %></p>
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>TERM</th>
+          <th>DESCRIPTION</th>
+          <th>REFERENCE</th>
+        </tr>
+        <% glossary.forEach((row) => { %>
+          <tr>
+            <td><%= row.id %></td>
+            <td><%= row.Term %></td>
+            <td><%= row.Description %></td>
+            <td><%= row.reference %></td>
+          </tr>
+        <% }) %>
+      </table>
+    </div>
+  </body>
+</html>
