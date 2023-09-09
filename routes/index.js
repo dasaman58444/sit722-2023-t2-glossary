@@ -184,7 +184,68 @@ const glossary_list = [
         'Term': 'Edge Computing',
         'Description': 'Edge Computing is a computing paradigm that involves processing data closer to its source, reducing the need to send all data to centralized cloud servers. This approach minimizes latency and improves real-time processing for applications like IoT, where immediate response is crucial.',
         'reference': 'Shi, W., Cao, J., Zhang, Q., Li, Y., & Xu, L. (2016). Edge Computing: Vision and Challenges. IEEE Internet of Things Journal, 3(5), 637-646.'
+      },{
+        'id': 31,
+        'Term': 'Infrastructure as a Service (IaaS)',
+        'Description': 'IaaS is a cloud computing service model that provides virtualized computing resources over the internet. It includes virtual machines, storage, and networking infrastructure (Mell & Grance, 2011).',
+        'reference': 'Mell, P., & Grance, T. (2011). The NIST Definition of Cloud Computing. National Institute of Standards and Technology.'
+      },
+      {
+        'id': 32,
+        'Term': 'Platform as a Service (PaaS)',
+        'Description': 'PaaS is a cloud computing service model that provides a platform and environment for developers to build, deploy, and manage applications without the need to manage the underlying infrastructure (Armbrust et al., 2010).',
+        'reference': 'Armbrust, M., Fox, A., Griffith, R., Joseph, A. D., Katz, R. H., Konwinski, A., ... & Zaharia, M. (2010). A View of Cloud Computing. Communications of the ACM, 53(4), 50-58.'
+      },
+      {
+        'id': 33,
+        'Term': 'Function as a Service (FaaS)',
+        'Description': 'FaaS, also known as serverless computing, is a cloud computing model where individual functions or pieces of code are executed in response to events, without the need to manage server infrastructure (Baldini et al., 2017).',
+        'reference': 'Baldini, I., Castro, P., Chang, K., Cheng, P., Fink, S., Ishakian, V., ... & Wheelhouse, D. (2017). Serverless Computing: Current Trends and Open Problems. arXiv preprint arXiv:1706.03105.'
+      },
+      {
+        'id': 34,
+        'Term': 'ChatOps',
+        'Description': 'ChatOps is a collaboration model that connects people, tools, and automation into a single chat-based interface, enabling teams to execute tasks, monitor systems, and manage workflows (Hundhausen & Cao, 2017).',
+        'reference': 'Hundhausen, C., & Cao, L. (2017). A Case Study of ChatOps in Open Source. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering (pp. 980-986).'
+      },
+      {
+        'id': 35,
+        'Term': 'Site Reliability Engineering (SRE)',
+        'Description': 'SRE is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems, with a focus on creating scalable and reliable software systems (Beyer et al., 2016).',
+        'reference': 'Beyer, B., Jones, C., Petoff, J., Murphy, N., & Wilkinson, D. (2016). Site Reliability Engineering: How Google Runs Production Systems. O\'Reilly Media.'
+      },
+      {
+        'id': 36,
+        'Term': 'GitOps',
+        'Description': 'GitOps is a set of best practices for Kubernetes application deployment and management, where the entire system state is described declaratively and stored in Git (Hosseini, 2020).',
+        'reference': 'Hosseini, M. (2020). GitOps: High Velocity CI/CD for Kubernetes. O\'Reilly Media.'
+      },
+      {
+        'id': 37,
+        'Term': 'Chaos Engineering',
+        'Description': 'Chaos Engineering is the discipline of experimenting on a software system to build confidence in its resilience and ability to withstand turbulent conditions (Nygard, 2007).',
+        'reference': 'Nygard, C. (2007). Release It!: Design and Deploy Production-Ready Software. Pragmatic Bookshelf.'
+      },
+      {
+        'id': 38,
+        'Term': 'Dark Launching',
+        'Description': 'Dark Launching is a deployment technique where new features or code changes are released to a subset of users or servers before being rolled out to the entire system (Elberse & Ferguson, 2013).',
+        'reference': 'Elberse, A., & Ferguson, R. (2013). Digital Disruption: The Future of Leadership and Innovation. Harvard Business Review Press.'
+      },
+      {
+        'id': 39,
+        'Term': 'Immutable Infrastructure',
+        'Description': 'Immutable Infrastructure is an approach to managing and deploying services in which components are replaced rather than modified, ensuring consistency and reducing configuration drift (Burns, 2015).',
+        'reference': 'Burns, B. (2015). Designing Distributed Systems. O\'Reilly Media.'
+      },
+      {
+        'id': 40,
+        'Term': 'CICD Pipeline',
+        'Description': 'The CI/CD Pipeline is a set of automated processes that allow code changes to be automatically built, tested, and deployed to production, ensuring a smooth software delivery process (Fowler & Humble, 2018).',
+        'reference': 'Fowler, M., & Humble, J. (2018). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Pearson.'
       }
+      
+      
     
     
 
