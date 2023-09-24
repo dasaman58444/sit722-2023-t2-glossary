@@ -232,18 +232,82 @@ const glossary_list = [
         'Description': 'Dark Launching is a deployment technique where new features or code changes are released to a subset of users or servers before being rolled out to the entire system (Elberse & Ferguson, 2013).',
         'reference': 'Elberse, A., & Ferguson, R. (2013). Digital Disruption: The Future of Leadership and Innovation. Harvard Business Review Press.'
       },
-      {
-        'id': 39,
-        'Term': 'Immutable Infrastructure',
-        'Description': 'Immutable Infrastructure is an approach to managing and deploying services in which components are replaced rather than modified, ensuring consistency and reducing configuration drift (Burns, 2015).',
-        'reference': 'Burns, B. (2015). Designing Distributed Systems. O\'Reilly Media.'
-      },
-      {
-        'id': 40,
-        'Term': 'CICD Pipeline',
-        'Description': 'The CI/CD Pipeline is a set of automated processes that allow code changes to be automatically built, tested, and deployed to production, ensuring a smooth software delivery process (Fowler & Humble, 2018).',
-        'reference': 'Fowler, M., & Humble, J. (2018). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Pearson.'
-      }
+     
+        {
+            'id': 39,
+            'Term': 'Immutable Infrastructure',
+            'Description': 'Immutable Infrastructure is an approach to managing and deploying services in which components are replaced rather than modified, ensuring consistency and reducing configuration drift (Burns, 2015).',
+            'reference': 'Burns, B. (2015). Designing Distributed Systems. O\'Reilly Media.'
+        },
+        {
+            'id': 40,
+            'Term': 'CICD Pipeline',
+            'Description': 'The CI/CD Pipeline is a set of automated processes that allow code changes to be automatically built, tested, and deployed to production, ensuring a smooth software delivery process (Fowler & Humble, 2018).',
+            'reference': 'Fowler, M., & Humble, J. (2018). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Pearson.'
+        },
+        {
+            'id': 41,
+            'Term': 'Blue-Green Deployment',
+            'Description': 'Blue-Green Deployment is a software release strategy where two identical environments (blue and green) are maintained, allowing for seamless and low-risk deployment by switching traffic between them (Humble & Farley, 2010).',
+            'reference': 'Humble, J., & Farley, D. (2010). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Pearson.'
+        },
+        {
+            'id': 42,
+            'Term': 'Rollback',
+            'Description': 'Rollback is the process of reverting to a previous version of software or configuration in case of deployment failures or issues, ensuring system stability (Newman, 2015).',
+            'reference': 'Newman, S. (2015). Building Microservices: Designing Fine-Grained Systems. O\'Reilly Media.'
+        },
+        {
+            'id': 43,
+            'Term': 'Deployment Automation',
+            'Description': 'Deployment Automation refers to the use of scripts and tools to automate the process of releasing software into different environments, reducing manual errors (Nassimbeni & Revilla, 2017).',
+            'reference': 'Nassimbeni, G., & Revilla, E. (2017). DevOps for Digital Leaders: Reignite Business with a Modern DevOps-Enabled Software Factory. Apress.'
+        },
+        {
+            'id': 44,
+            'Term': 'Canary Deployment',
+            'Description': 'Canary Deployment is a technique in which a new version of the software is released to a small subset of users to validate its performance and functionality before a full deployment (Stafford & Webber, 2020).',
+            'reference': 'Stafford, M., & Webber, J. (2020). DevOps for Dummies. Wiley.'
+        },
+        {
+            'id': 45,
+            'Term': 'Artifact Repository',
+            'Description': 'An Artifact Repository is a centralized location for storing and managing binary artifacts, such as compiled code and dependencies, which are used in the software deployment process (Sonatype).',
+            'reference': 'Sonatype. (n.d.). What is an Artifact Repository? Retrieved from https://www.sonatype.com/what-is-an-artifact-repository'
+        },
+        {
+            'id': 46,
+            'Term': 'Zero-Downtime Deployment',
+            'Description': 'Zero-Downtime Deployment is a deployment approach that aims to eliminate service interruptions during updates by gradually replacing components without affecting user access (Kim et al., 2016).',
+            'reference': 'Kim, G., Debois, P., Willis, J. (2016). The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations. IT Revolution Press.'
+        },
+        {
+            'id': 47,
+            'Term': 'Deployment Orchestration',
+            'Description': 'Deployment Orchestration involves coordinating and automating the deployment of multiple software components and services to ensure they work together seamlessly (Kim et al., 2018).',
+            'reference': 'Kim, G., Debois, P., Willis, J. (2018). The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations. IT Revolution Press.'
+        },
+        {
+            'id': 48,
+            'Term': 'Continuous Integration (CI)',
+            'Description': 'Continuous Integration is the practice of regularly integrating code changes into a shared repository, where automated tests are run to ensure code quality and reliability (Duvall et al., 2007).',
+            'reference': 'Duvall, P., Matyas, S., & Glover, A. (2007). Continuous Integration: Improving Software Quality and Reducing Risk. Pearson.'
+        },
+        {
+            'id': 49,
+            'Term': 'Deployment Pipeline',
+            'Description': 'A Deployment Pipeline is a series of automated stages that code changes pass through, from development to production, ensuring consistent and reliable deployments (Humble & Farley, 2010).',
+            'reference': 'Humble, J., & Farley, D. (2010). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Pearson.'
+        },
+        {
+            'id': 50,
+            'Term': 'Infrastructure as Code (IaC)',
+            'Description': 'Infrastructure as Code is a practice of defining and provisioning infrastructure through code, enabling automated and version-controlled infrastructure deployment (Morris et al., 2016).',
+            'reference': 'Morris, K., Nugent, A., & Gehrman, D. (2016). Infrastructure as Code: Managing Servers in the Cloud. O\'Reilly Media.'
+        }
+    
+    
+      
       
       
     
